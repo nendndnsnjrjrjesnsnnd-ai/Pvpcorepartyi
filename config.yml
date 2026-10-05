@@ -1,0 +1,19 @@
+party:
+  max-size: 10
+  invite-seconds: 60
+  only-leader-invite: true
+
+# Lobi esyasi (PvPCore lobi esyalarinin yanina eklenir)
+item:
+  enabled: true
+  slot: 1
+  material: LECTERN
+  name: '&d★ &5Parti'
+  lore:
+    - '&7Sag tikla: parti menusunu ac'
+
+match:
+  # 0 = PvPCore'un duels.countdown-seconds degerini kullan
+  countdown-seconds: 0
+  # Mac bittikten sonra oyuncular kac tick sonra lobiye donsun (20 tick = 1 sn)
+  end-delay-ticks: 100
